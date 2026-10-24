@@ -4,6 +4,8 @@ This project demonstrates communication between a parent process and its child u
 
 ## How it works
 
+See [docs/architecture.md](docs/architecture.md) for a diagram of the process and pipe connections.
+
 - `pipe()` creates a pair of file descriptors. Each pipe carries bytes in one direction.
 - `fork()` creates a child process. The child inherits both pipes' file descriptors.
 - The parent closes the pipe ends it does not use, sends a message to the child, then closes that write end. Closing it signals end of input (EOF).
