@@ -1,6 +1,6 @@
 # Pipe IPC architecture
 
-This document describes the implementation in [`main.c`](../main.c). The diagram is fixed: changing the message contents does not change the processes, descriptors, or connections.
+This document describes the implementation in [`main.c`](main.c). The diagram is fixed: changing the message contents does not change the processes, descriptors, or connections.
 
 ## Process and message flow
 

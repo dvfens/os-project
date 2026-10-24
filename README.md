@@ -46,4 +46,4 @@ Child received: Hello child, this message traveled through a pipe.
 Parent received: Hello parent, I received your message.
 ```
 
-See [docs/architecture.md](docs/architecture.md) for the descriptor ownership table, detailed data flow, and pipe behavior.
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the descriptor ownership table, detailed data flow, and pipe behavior.
